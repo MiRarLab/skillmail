@@ -6,6 +6,7 @@ from email.mime.text import MIMEText
 
 def enter():
     ''' Function to get user input email-from/password/email-to/subject/message'''
+    
     msg = MIMEMultipart()
     msg['from'] = input("Enter your email: ")
     password = getpass.getpass('Password: ')
