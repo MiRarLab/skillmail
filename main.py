@@ -28,7 +28,7 @@ def configure(msg, message, password):
     return smtp_obj
 
 def attachment(msg):
-    filename = input("Name of the file and extention: ")
+    filename = input("Name of the file and extension: ")
     attachment = open(input("Path of the file: "), "rb")
     
     part = MIMEBase('application', 'octet-stream')
