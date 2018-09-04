@@ -29,7 +29,7 @@ def configure(msg, message, password):
  
  
 def send(msg, smtp_obj):
-    ''' Send the email and quit the SMPP '''
+    ''' Send the email and quit the SMPT'''
 
     smtp_obj.sendmail(msg['from'], msg['to'], msg.as_string())
     smtp_obj.quit()
