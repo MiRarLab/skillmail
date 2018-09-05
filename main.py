@@ -17,7 +17,6 @@ def enter():
 
     return msg, password, message
  
-
 def configure(msg, message, password):
     ''' Configure the SMTP object and login'''
 
@@ -39,8 +38,7 @@ def attachment(msg):
     
     msg.attach(part)
     return msg
- 
- 
+
 def send(msg, smtp_obj):
     ''' Send the email and quit the SMPP '''
 
@@ -57,7 +55,6 @@ def main():
     if  with_attach.lower() == "true": msg = attachment(msg)
   
     send(msg, smtp_obj)
-
 
 if __name__ == "__main__":
     main()
