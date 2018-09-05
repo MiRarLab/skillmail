@@ -47,7 +47,6 @@ def send(msg, smtp_obj):
  
     print(f"Successfully sent email to {msg['to']}")
 
-
 def main():
     with_attach = input("Send email with attachment True or False: ")
     msg, password, message = enter()
