@@ -1,6 +1,6 @@
 # skillmail
 
-* This project includes:
+This project includes:
 * gg
 
 ---License
