@@ -1,7 +1,7 @@
 # skillmail
 
 This project includes:
-* gg
+* main.py
 
 License
 -
